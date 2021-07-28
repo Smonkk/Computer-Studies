@@ -1,0 +1,277 @@
+.hidden {
+  display: none;
+}
+
+.cleafix::after {
+  content: " ";
+  clear: both;
+  display: table;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.flexcontainer {
+  display:flex;
+  flex-wrap: nowrap;
+
+}
+
+.img-container {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+
+}
+
+.nav1 li {
+  float: left;
+
+}
+
+.nav1 li a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: inline-block;
+}
+
+.stay {
+  position:fixed;
+}
+
+table {
+  width:850;
+  float: right;
+  padding-right: 20;
+}
+
+th.dark_purple {
+  font-size: 30px;
+  padding-bottom: 30px;
+  color: #3d195b;
+}
+
+.th1 {
+  font-size: 50px;
+  padding-bottom: 0px;
+}
+
+th#dark_purple {
+  color: #3d195b;
+}
+
+.table2 {
+  border: 0px solid black;
+}
+
+td.dark_purple {
+  text-align: center;
+  padding-bottom: 30px;
+  color: #3d195b;
+}
+
+h3.dark_purple {
+  color: #3d195b;
+}
+
+h3 {
+  text-align: right;
+  padding-top:  ;
+  padding-right: 300  ;
+  font-size: 50;
+}
+
+body.purple {
+  background-color: #F3B6FF;
+}
+
+body.cyan {
+  background-color: #65E5D1;
+}
+
+body.blue {
+  background-color: #BEE3FF;
+}
+
+body.red {
+  background-color: #FF6168;
+}
+
+body.gold {
+  background-color: #F2DCA6;
+}
+
+h1.dark_purple {
+    color: #3d195b;
+}
+
+h1{
+  text-align:center;
+  font-family: serif;
+  font-size: 50;
+}
+
+h2.dark_purple {
+    color: #3d195b;
+}
+
+h2 {
+  text-align: center;
+  font-family: serif;
+}
+
+.nav1 li a:hover {
+  background-color:#2E1344;
+}
+
+ul.nav1 {
+  list-style-type: none;
+  background-color:#3d195b;
+  overflow: hidden;
+  padding:0;
+  margin: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;}
+
+ul.nav2 {
+    list-style-type: none;
+    background-color:#26564E;
+    overflow: hidden;
+    padding:0;
+    margin: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;}
+
+.nav2 li a:hover {
+      background-color:#183631;
+    }
+
+.nav2 li {
+      float: left;
+
+    }
+
+.nav2 li a {
+      color: white;
+      text-decoration: none;
+      padding: 15px;
+      display: inline-block;
+    }
+
+ul.nav3{
+      list-style-type: none;
+      background-color:#2B4457;
+      overflow: hidden;
+      padding:0;
+      margin: 0;
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+
+    }
+
+.nav3 li a:hover {
+          background-color:#1B2B36;
+        }
+
+.nav3 li {
+          float: left;
+
+        }
+
+.nav3 li a {
+          color: white;
+          text-decoration: none;
+          padding: 15px;
+          display: inline-block;
+        }
+
+ul.nav4{
+          list-style-type: none;
+          background-color:#602427;
+          overflow: hidden;
+          padding:0;
+          margin: 0;
+          position: -webkit-sticky;
+          position: sticky;
+          top: 0;
+
+            }
+
+.nav4 li a:hover {
+          background-color:#3C1718;
+                }
+
+.nav4 li {
+          float: left;
+
+                }
+
+.nav4 li a {
+          color: white;
+          text-decoration: none;
+          padding: 15px;
+          display: inline-block;
+                }
+ul.nav5{
+          list-style-type: none;
+          background-color:#89650B;
+          overflow: hidden;
+          padding:0;
+          margin: 0;
+          position: -webkit-sticky;
+          position: sticky;
+          top: 0;
+
+                            }
+
+.nav5 li a:hover {
+          background-color:#563F07;
+                                }
+
+.nav5 li {
+          float: left;
+
+                                }
+
+.nav5 li a {
+          color: white;
+          text-decoration: none;
+          padding: 15px;
+          display: inline-block;
+                                }
+h2.dark_cyan {
+        color: #26564E;
+    }
+
+h3.dark_cyan {
+            color: #26564E;
+        }
+
+h1.dark_cyan {
+              color: #26564E;
+                }
+
+.dark_cyan      {
+   color:#26564E;
+  }
+
+#dark_cyan   {
+     color:#26564E;
+    }
+
+.dark_blue   {
+  color:#2B4457;
+}
+
+.dark_red {
+  color: #602427;
+}
+
+.gold {
+  color:#89650B;
+}
